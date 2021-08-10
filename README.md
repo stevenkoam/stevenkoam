@@ -1,17 +1,23 @@
-print("안녕하세요. 알파코드, 오늘의 시간표입니다.")
-
-print('''
-시간표
-========================
-'월요일: 프로그래밍 수업'
-'화요일: 수학수업'
-'수요일: 영어수업'
-'목요일: 독서하기'
-'금요일: 창업구상'
-========================
-'''.format('월요일: 프로그래밍 수업',
-           '화요일: 수학수업',
-           '수요일: 영어수업',
-           '목요일: 독서하기',
-           '금요일: 창업구상',))
-
+#include <stdio.h>
+int main()
+{
+           int score = 0;
+           printf("점수를 출력하세요.:);
+           scanf_s("%d", &score);
+           if((score < 0) || (score > 100))
+           printf("NA\n");
+          else if(score >= 90)
+           printf("A\n");
+          else if(score >= 80)
+           printf("B\n");
+          else if(score >= 70)
+           printf("C\n");
+          else if(score >= 60)
+           printf("D\n");
+          else
+           printf("F\n");
+          return 0;
+      }
+           
+           
+           
